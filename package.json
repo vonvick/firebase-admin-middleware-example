@@ -1,0 +1,39 @@
+{
+  "name": "firebase-admin-middleware-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node start.js",
+    "start:dev": "./node_modules/.bin/nodemon start.js"
+  },
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "8.2.6",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-root-import": "6.1.0",
+    "babel-plugin-syntax-object-rest-spread": "6.13.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "firebase": "^5.2.0",
+    "firebase-admin": "^6.1.0",
+    "pg": "^7.4.3",
+    "sequelize": "^4.39.0",
+    "sequelize-cli": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "6.1.0"
+  }
+}
